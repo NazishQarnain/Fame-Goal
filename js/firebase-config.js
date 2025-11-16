@@ -2,13 +2,13 @@
 // Replace these values with your Firebase project credentials
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID",
-    databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com"
+    apiKey: "AIzaSyBi5Pp_Cv08J4Rd69ACrP1F15C-yP2nd9w",
+  authDomain: "my-social-media-24c11.firebaseapp.com",
+  projectId: "my-social-media-24c11",
+  storageBucket: "my-social-media-24c11.firebasestorage.app",
+  messagingSenderId: "210343971319",
+  appId: "1:210343971319:web:fbec2f09244d7caa8d46f2",
+  databaseURL: "https://my-social-media-24c11-default-rtdb.firebaseio.com"
 };
 
 // Initialize Firebase
