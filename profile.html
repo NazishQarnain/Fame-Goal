@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Fame Goal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Fame Goal</div>
+            <div class="nav-search">
+                <input type="text" placeholder="Search" id="searchInput">
+            </div>
+            <div class="nav-icons">
+                <a href="feed.html" class="nav-icon">🏠</a>
+                <a href="#" class="nav-icon">✉️</a>
+                <a href="#" class="nav-icon">➕</a>
+                <a href="#" class="nav-icon">❤️</a>
+                <a href="profile.html" class="nav-icon">👤</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="" alt="Profile" id="profileAvatar">
+            </div>
+            <div class="profile-info">
+                <div class="profile-actions">
+                    <h2 id="profileUsername">Username</h2>
+                    <button id="editProfileBtn" class="btn-primary">Edit Profile</button>
+                    <button id="logoutBtn" class="btn-secondary">Logout</button>
+                </div>
+                <div class="profile-stats">
+                    <div><strong><span id="postsCount">0</span></strong> posts</div>
+                    <div><strong><span id="followersCount">0</span></strong> followers</div>
+                    <div><strong><span id="followingCount">0</span></strong> following</div>
+                </div>
+                <div class="profile-bio">
+                    <strong id="profileFullname">Full Name</strong>
+                    <p id="profileBio"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-tabs">
+            <button class="tab-btn active">▦ POSTS</button>
+            <button class="tab-btn">🔖 SAVED</button>
+            <button class="tab-btn">🏷️ TAGGED</button>
+        </div>
+
+        <div class="profile-posts" id="profilePosts">
+            <!-- User posts will be displayed in a grid here -->
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>
