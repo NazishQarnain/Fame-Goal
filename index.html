@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fame Goal - Share Your Moments</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="landing-container">
+        <div class="landing-left">
+            <div class="phone-mockup">
+                <img src="assets/phone-frame.png" alt="Phone" class="phone-frame">
+                <div class="screenshot-slider">
+                    <img src="assets/screenshot1.jpg" alt="Screenshot" class="active">
+                </div>
+            </div>
+        </div>
+        
+        <div class="landing-right">
+            <div class="auth-box">
+                <h1 class="logo">Fame Goal</h1>
+                <p class="tagline">Share your moments with friends and the world</p>
+                
+                <form id="loginForm" class="auth-form">
+                    <input type="email" placeholder="Email" id="loginEmail" required>
+                    <input type="password" placeholder="Password" id="loginPassword" required>
+                    <button type="submit" class="btn-primary">Log In</button>
+                </form>
+                
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                
+                <p class="switch-form">Don't have an account? <a href="signup.html">Sign up</a></p>
+            </div>
+            
+            <div class="download-app">
+                <p>Get the app.</p>
+                <div class="app-buttons">
+                    <img src="assets/app-store.png" alt="App Store">
+                    <img src="assets/google-play.png" alt="Google Play">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Fame Goal. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
