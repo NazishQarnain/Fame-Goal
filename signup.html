@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Fame Goal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="logo">
+                <h1>Fame Goal</h1>
+            </div>
+            
+            <div class="auth-form">
+                <p class="tagline">Sign up to see photos and videos from your friends.</p>
+                
+                <form id="signupForm">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="fullname" placeholder="Full Name" required>
+                    <input type="text" id="username" placeholder="Username" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button type="submit" class="btn-primary">Sign Up</button>
+                </form>
+                
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                
+                <p class="terms">
+                    By signing up, you agree to our Terms, Privacy Policy and Cookies Policy.
+                </p>
+            </div>
+        </div>
+        
+        <div class="auth-box">
+            <p>Have an account? <a href="index.html">Log in</a></p>
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
